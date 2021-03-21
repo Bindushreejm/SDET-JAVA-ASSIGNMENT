@@ -6,6 +6,7 @@ public class AreaofTriangle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter base of the triangle - ");
 		double base = sc.nextDouble();
